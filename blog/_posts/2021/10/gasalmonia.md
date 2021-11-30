@@ -40,8 +40,6 @@ GitHub アクションでは、カスタムソフトウェア開発のライフ�
 
 :::
 
-<Amazon />
-
 ## [Salmonia for GitHub Actions](https://github.com/tkgstrator/Salmonia-GA)
 
 というわけでとりあえずリザルトを取得する Python コードを書いてみました。
@@ -121,5 +119,3 @@ GitHub アクションでは、カスタムソフトウェア開発のライフ�
 JSON を読み込んで簡易的なリザルトビューワとして使えるので、将来的に Netlify と連携して色々できたらいいなと思っています。
 
 記事は以上。
-
-<Amazon />

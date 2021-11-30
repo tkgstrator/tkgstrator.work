@@ -2,8 +2,19 @@ module.exports = {
   title: "えいむーさんは明日も頑張るよ",
   theme: "blog-vuetify",
   themeConfig: {
-    // ...
+    components: {
+      afterPage: "Amazon",
+      beforePageSection: "Amazon",
+    },
   },
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-111335437-2",
+      },
+    ],
+  ],
   head: [
     [
       "link",

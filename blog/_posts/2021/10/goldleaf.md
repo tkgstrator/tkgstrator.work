@@ -12,8 +12,6 @@ tags:
 
 簡単にいえばバックアップしたゲームをニンテンドースイッチにインストールするためのツールです。 DeepSea を利用しているのであればデフォルトで入っていると思うので追加で Hb App Store からダウンロードしたりする必要はありません。
 
-<Amazon />
-
 ## 機能一覧
 
 ![](https://pbs.twimg.com/media/EZ3naBOXYAEnet6?format=jpg&name=large)
@@ -125,5 +123,3 @@ PC で NSP を選択すると Switch 側にインストール画面が表示さ�
 無事に NSP インストールに成功！
 
 記事は以上。
-
-<Amazon />

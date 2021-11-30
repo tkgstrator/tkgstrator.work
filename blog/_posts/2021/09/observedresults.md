@@ -16,8 +16,6 @@ tags:
 
 そのために`@ObservableObject`や`freeze`でごにょごにょしなきゃいけなかったのですが、それら全てから開放されるのがこの`@ObservedResults`になります。
 
-<Amazon />
-
 ## 基本的な使い方
 
 RealmSwift のドキュメントに載っている通りに解説しようと思います。
@@ -209,5 +207,3 @@ struct ContentView: View {
 なのでこの書き方は避けるようにしましょう。
 
 記事は以上。
-
-<Amazon />
