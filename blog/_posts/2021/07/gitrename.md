@@ -332,7 +332,19 @@ git push -f
 
 > 参考文献
 >
-> [Git の Commit Author と Commiter を変更する](https://qiita.com/sea_mountain/items/d70216a5bc16a88ed932)
+> [Git の Commit Author と Commiter を変更する](https://qiita.com/sea_mountain/items/d70216a5bc16a88ed932)
+
+### 誤って追加したファイルを過去のコミットから削除
+
+例えば本来はレポジトリに含めてはいけないパスワードなどが誤って Git で管理されていたときの対処方法。
+
+```sh
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch SECRET_FILE_PATH' HEAD
+```
+
+`SECRET_FILE_PATH`を埋めて実行すれば過去のコミット全てから消去されます。注意点としてはパスを入力しないといけないということ。
+
+階層が深いと若干めんどくさかったりしますね。
 
 ## フォーク元から最新のデータを取得
 
