@@ -15,19 +15,25 @@ IPSwitch とは pchtxt（パッチテキスト）を読み込み、IPS 形式の
 
 まずは IPSwitch をダウンロードし、switch フォルダ内に「ipswitch」というフォルダを作成し、ipswitch.nro をコピーします。
 
-つぎに ipswitch フォルダ内に名前は何でもいいので、フォルダを作成します。
+つぎに ipswitch フォルダ内に名前は何でもいいので、フォルダを作成します。今回は仮に`splatoon2`というファイル名をつけたとしましょう。
 
 あとはそのつくったフォルダの中に pchtxt 形式のコードファイルをコピーします。
 
-例えとしては、こんな感じです。
+```
+switch/
+└── ipswitch/
+    ├──ipswith.nro
+    └── splatoon2/
+        └── xxxxxx.pchtxt
+```
 
-`sdmc:/switch/ipswitch/Splatoon 2/5.4.0public.pchtxt`
+このとき、ディレクトリ構造が上のようになっていれば良いです。s
 
 コードは移植と開発の二通りの入手方法があります。
 
 また、インターネットで誰かが公開しているものを使うという手も考えられます。
 
-[スプラトゥーン2 チートコード](https://takaharu422.github.io/Splatoon2.github.io/ja.html)
+[スプラトゥーン 2 チートコード](https://takaharu422.github.io/Splatoon2.github.io/ja.html)
 
 ## Switch 側の設定
 
