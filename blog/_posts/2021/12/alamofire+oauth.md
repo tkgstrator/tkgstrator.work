@@ -36,7 +36,6 @@ Alamofire では 5.2 から`AuthenticationInterceptor`という機能が実装�
 struct OAuthCredential: AuthenticationCredential {
     let accessToken: String
     let refreshToken: String
-    let userID: String
     let expiration: Date
 
     // 有効期限から五分以内の場合、リフレッシュを要求する
@@ -75,6 +74,103 @@ internal class OAuthAuthenticator: Authenticator {
         response.statusCode == 403
     }
     /// いつ呼ばれるのかわからん
+    func isRequest(
+        _ urlRequest: URLRequest,
+        authenticatedWith credential: OAuthCredential
+    ) -> Bool {
+        false
+    }
+}
+```
+
+あとはこれを適当なタイミングで呼び出します。
+
+### 呼び出し方
+
+`RequestType: URLRequestConvertible`と`ResponseType: Codable`を適当に定義しておきます。
+
+::: tip Codable にする意味
+
+Codable にしておけば JSON で受け取ったデータを何の手間もなしに構造体に変換できるので必ず利用すること。SwiftyJSON を今更使うのはナシ。
+:::
+
+そして以下のようにコードを書きます。
+
+```swift
+func publish(request: RequestType) -> AnyPublisher<ResponseType, AFError> {
+    let credential = OAuthCredential(
+        accessToken: "",
+        refreshToken: "",
+        expiresIn: Date(timeIntervalSinceNow: 60 * 60)
+        )
+
+    let authenticator = OAuthAuthenticator()
+    let interceptor = AuthenticationInterceptor(
+        authenticator: authenticator,
+        credential: credential
+        )
+
+    return AF.request(request, interceptor: interceptor)
+        .validate()
+        .publishDecodable(type: ResponseType.self)
+        .value()
+}
+```
+
+リクエストを送るのを管轄するようなクラスがある場合には、新たに`OAUthAutenticator`クラスを定義せずに、そのクラスを`OAuthAuthenticator`に適合させてやるほうが賢いです。
+
+## 実践的な利用方法
+
+以下のような感じでクラスを定義するのが賢いと思われる。
+
+```swift
+class NetworkManager {
+    /// 認証情報: イニシャライザで初期化する
+    let credential: OAuthCredential
+    /// Interceptor: Computed Propertyでいつでも呼び出せるようにする
+    let interceptor: AuthenticationInterceptor {
+        AuthenticationInterceptor(authenticator: self,
+        credential: credential
+        )
+    }
+
+    init() {
+        self.credential = OAuthCredential() // 認証情報インスタンスを作成
+    }
+
+    func class publish<T: RequestType>(request: T) -> AnyPublisher<T.ResponseType, AFError> {
+        AF.request(request, interceptor: interceptor)
+            .validate()
+            .publishDecodable(type: ResponseType.self)
+            .value()
+    }
+}
+
+extension NetworkManager: OAuthAuthenticator {
+    func apply(
+        _ credential: OAuthCredential,
+        to urlRequest: inout URLRequest
+    ) {
+        urlRequest.headers.add(HTTPHeader(name: "cookie", value: "iksm_session=\(credential.iksmSession)"))
+    }
+
+    func refresh(
+        _ credential: OAuthCredential,
+        for session: Session,
+        completion: @escaping (Swift.Result<OAuthCredential, Error>) -> Void
+    ) {
+        completion(.success(credential))
+        return
+    }
+
+    func didRequest(
+        _ urlRequest: URLRequest,
+        with response: HTTPURLResponse,
+        failDueToAuthenticationError error: Error
+    ) -> Bool {
+        response.statusCode == 403
+    }
+
     func isRequest(
         _ urlRequest: URLRequest,
         authenticatedWith credential: OAuthCredential
