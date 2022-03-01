@@ -31,6 +31,7 @@ module.exports = {
     ],
   ],
   markdown: {
+    anchor: { permalink: false },
     extendMarkdown: (md) => {
       md.use(require("@iktakahiro/markdown-it-katex"), {
         throwOnError: false,
