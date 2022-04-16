@@ -27,7 +27,7 @@ Ubuntu または WSL2 を用いた Ubuntu 仮想環境での導入方法につ�
 
 ```sh
 wget https://github.com/devkitPro/pacman/releases/download/v1.0.2/devkitpro-pacman-installer.pkg
-sudo installer -pkg /path/to/devkitpro-pacman-installer.pkg -target /
+sudo installer -pkg devkitpro-pacman-installer.pkg -target /
 ```
 
 折角なのでダウンロード用のコマンドも載せておきました。
