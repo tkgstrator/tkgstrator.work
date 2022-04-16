@@ -1,8 +1,20 @@
-.v-applicastion {
-  font-family: monospace !important;
+@font-face {
+  font-family: SFProText;
+  src: url("/fonts/SF-Pro-Text-Regular.woff2") format("woff2"),
+    url("/fonts/SF-Pro-Text-Regular.woff") format("woff");
+}
+
+.v-application {
+  font-family: SFProText, monospace !important;
 }
 
 video {
   width: 100%;
   object-fit: fill !important;
+}
+
+img {
+  display: flex;
+  // text-align: center;
+  margin: 0 auto;
 }
