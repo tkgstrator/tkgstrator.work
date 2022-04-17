@@ -1,6 +1,6 @@
 ---
 title: Flutterでクロスコンパイル
-date: 2022-04-15
+date: 2022-04-16
 categoriy: プログラミング
 tags:
   - Swift

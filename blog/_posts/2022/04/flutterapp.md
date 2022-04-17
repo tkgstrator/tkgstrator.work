@@ -1,6 +1,6 @@
 ---
 title: Flutterでアプリを作成してみる
-date: 2022-04-15
+date: 2022-04-17
 categoriy: プログラミング
 tags:
   - Swift
@@ -9,6 +9,12 @@ tags:
 ---
 
 ## プロジェクトの作成
+
+```sh
+flutter create project_name
+```
+
+で作成できます。
 
 最新の Flutter では iOS 向けはデフォルトで Swift, Android は Kotlin が指定されています。もし変更したい場合は`flutter create -i objc -a java project_name`のように直接指定しましょう。
 
@@ -19,3 +25,9 @@ tags:
 ドキュメントは[公式のもの](https://docs.flutter.dev/)か[日本語ドキュメント](https://flutter.ctrnost.com/)が良いのではないかと思います。
 
 ちらっと見た感じは Dart 自体は SwiftUI っぽさがあります。言語自体は Typescript に似ているそうなので学習コスト自体はそこまで高くないかもしれません。ラッパーではない独自のコンポーネントを持っているのも個人的には学習意欲が起きて良い感じです。
+
+## レイアウト
+
+![](https://flutter.ctrnost.com/images/layout/flutter_layout.svg)
+
+ドキュメントによると、Flutter は上の図のように大きく分けると三つのコンポーネントに分けられるようです。
