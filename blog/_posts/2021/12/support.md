@@ -4,7 +4,9 @@ date: 2021-12-24
 categoriy: 雑記
 ---
 
-## [ほしいものリスト](https://www.amazon.jp/hz/wishlist/ls/1OVWKJ7C5R9XK?ref_=wl_share)
+## ほしいものリスト
+
+とりあえず有名な[ほしいものリスト](https://www.amazon.jp/hz/wishlist/ls/1OVWKJ7C5R9XK?ref_=wl_share)
 
 えいむーさんをサポートするためのシステムを整えました！！！
 
@@ -26,10 +28,14 @@ categoriy: 雑記
 
 宛先タグ: `76690685`
 
-## [PayPal](https://paypal.me/salmonia)
+## PayPal
 
-PayPal アカウントでの受け取りにも対応しています。
+[PayPal](https://paypal.me/salmonia)アカウントでの受け取りにも対応しています。
 
-## [PayPay](https://qr.paypay.ne.jp/4MmLv1faPVCKdP6z)
+## PayPay
 
-最近 PayPay にも対応しました。
+![](https://pbs.twimg.com/media/FSCY_5pVkAAcC_z?format=jpg&name=large)
+
+最近 [PayPay](https://qr.paypay.ne.jp/DilDW7GTFW3DLOfq) にも対応しました。
+
+よくわかんない人は ID 検索で`tkgstrator`って検索してでてくるのがぼくです。
