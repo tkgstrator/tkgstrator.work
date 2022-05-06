@@ -32,7 +32,7 @@ tags:
 - 充実したドキュメント
   - Salmon Stats は API ドキュメントなどが全くありませんでした
   - それに対して New!! Salmon Stats では Redoc と Swagger で全ての API が[ドキュメント](https://tkgstrator.github.io/SalmonStats-Server/)として公開されています
-  - これにより、第三者が API を使った連携サービスを用意に開発することができます
+  - これにより、第三者が API を使った連携サービスを容易に開発することができます
 - 環境に依存しない
   - New!! Salmon Stats は Docker を利用しており、環境に依存せず誰でもテスト環境を構築できます
 - Salmon Run Next Wave に対応する
