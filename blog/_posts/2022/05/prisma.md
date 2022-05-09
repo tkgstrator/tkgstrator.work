@@ -6,6 +6,7 @@ tags:
   - Typescript
   - NodeJS
   - PostgresSQL
+  - Prisma
 ---
 
 ## Prisma
