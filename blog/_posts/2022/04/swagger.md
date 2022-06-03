@@ -1,7 +1,7 @@
 ---
 title: SwaggerでSatic HTMLを作成する
 date: 2022-04-12
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

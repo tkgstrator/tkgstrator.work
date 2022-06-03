@@ -2,7 +2,7 @@
 title: 同時存在数上限による代替オオモノの誤解と見解
 date: 2021-11-08
 description: 同一オオモノシャケは同時に三体しか存在できないことが知られていますが、それについて最新の情報を発信したいと思います。
-categoriy: Splatoon2
+category: Splatoon2
 tags:
   - サーモンラン
 ---

@@ -1,7 +1,7 @@
 ---
 title: Docker+Prisma+PostgresSQL+NestJS
 date: 2022-05-18
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Typescript
   - NestJS
@@ -28,4 +28,4 @@ tags:
 
 ### 実装
 
-まずはディレクトリ構成について。\
+まずはディレクトリ構成について。

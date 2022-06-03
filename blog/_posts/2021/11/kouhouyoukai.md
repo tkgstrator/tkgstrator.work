@@ -2,7 +2,7 @@
 title: kouhouyoukaiさんの問題をSwiftで解く
 date: 2021-11-22
 description: Twitterに問題が挙がっていたので解いてみました
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
 ---

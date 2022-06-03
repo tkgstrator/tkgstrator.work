@@ -1,7 +1,7 @@
 ---
 title: iOSアプリでZipをダウンロードしてプログラム内で利用する
 date: 2022-04-13
-categoriy: プログラミング
+category: プログラミング
 tags:
   - iOS
   - Swift

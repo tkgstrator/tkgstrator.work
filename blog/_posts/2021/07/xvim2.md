@@ -78,5 +78,3 @@ csrutil disable
 XVim2、いままでありがとう。
 
 ## 追記
-
-<Amazon/>

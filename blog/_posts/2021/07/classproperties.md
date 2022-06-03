@@ -29,7 +29,7 @@ tags:
 
 そして、B というエンドポイントで`resultId`を指定してそのデータの詳細にアクセスするような仕組みである。
 
-```sh
+```
 # A
 - endpoint # /results
 - userId

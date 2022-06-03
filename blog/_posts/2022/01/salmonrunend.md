@@ -1,7 +1,7 @@
 ---
 title: さよなら、全てのサーモンラン
 date: 2022-01-13
-categoriy: Splatoon2
+category: Splatoon2
 tags:
   - サーモンラン
 ---

@@ -23,7 +23,7 @@ XML の派生である YAML などをニンテンドー独自の暗号化で難�
 
 ただ、これだと単一のファイルにしか対応していないのでバッチファイルを作成してループ処理ができるようにします。
 
-```bat
+```
 @echo off
 mkdir %~dp0bprm
 for %%f in (*.bprm) do (
@@ -56,7 +56,7 @@ ren %~dp0bprm %%~nxf.xml %%~nf.xml
 
 ## 暗号化
 
-```bat
+```
 @echo off
 mkdir %~dp0encrypt
 for %%f in (*.xml) do (

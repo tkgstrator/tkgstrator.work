@@ -1,7 +1,7 @@
 ---
 title: Intel CPUのES版が売られている謎
 date: 2022-01-14
-categoriy: 話題
+category: 話題
 ---
 
 ## ES 版 CPU

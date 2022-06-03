@@ -1,7 +1,7 @@
 ---
 title: SwiftUIのSearchableを理解せよ
 date: 2022-03-25
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

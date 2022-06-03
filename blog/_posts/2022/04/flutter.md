@@ -1,7 +1,7 @@
 ---
 title: Flutterでクロスコンパイル
 date: 2022-04-16
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - iOS
@@ -27,13 +27,13 @@ Intel CPU を使っている方は[こちら](https://redirector.gvt1.com/edgedl
 
 [Install](https://docs.flutter.dev/get-started/install)はここの手順通りに行います。自分は何も読まずに Flutter SDK をそのまま使ったのですが、Git を使う方法もアリだと思います。
 
-```zsh
+```
 export PATH="$PATH:`pwd`/flutter/bin"
 ```
 
 ドキュメントにはこう書かれているのですが、自分は DevkitPro と同じように`/opt`に flutter 自体を移動させたので、
 
-```zsh
+```
 export PATH="$PATH:/opt/flutter/bin"
 ```
 
@@ -63,7 +63,7 @@ Android toolchain と Android Studio がちょっとハマるかもしれない�
 
 サンプルプロジェクトを起動するだけなら以下のコマンドでできます。
 
-```sh
+```
 flutter create hello_world
 cd hello_world
 flutter run
@@ -73,7 +73,7 @@ flutter run
 
 すると macOS 向けにアプリがビルドされて立ち上がります。
 
-```sh
+```
 open -a Simulator
 ```
 

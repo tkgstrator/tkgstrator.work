@@ -1,7 +1,7 @@
 ---
 title: NyamoTwiをアップデート
 date: 2022-04-21
-categoriy: プログラミング
+category: プログラミング
 tags:
   - iOS
   - Swift

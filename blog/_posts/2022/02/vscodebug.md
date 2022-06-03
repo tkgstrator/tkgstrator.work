@@ -1,7 +1,7 @@
 ---
 title: VSCodeで日本語入力すると画面がチラつく問題
 date: 2022-02-28
-categoriy: プログラミング
+category: プログラミング
 tags:
   - VSCode
 ---

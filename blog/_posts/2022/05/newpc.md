@@ -1,7 +1,7 @@
 ---
 title: M1 Ultraと自作PCを戦わせてみた
 date: 2022-05-01
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---
@@ -74,7 +74,7 @@ x265 なのか VP9 なのか問題はあるのですが、今回は x265 にし�
 
 Windows マシンの方であればダウンロードした HandbrakeCLI と同じ場所に以下のバッチファイルを作成して、バッチファイルに動画ファイルをドラッグアンドドロップすればエンコードされますので便利です。
 
-```bat
+```
 @echo off
 for %%f in (%*) do (
 %~d0%~p0HandBrakeCLI.exe -i %%f -f av_mkv -m -e x265 -q 21.0 --all-audio -E aac --all-subtitles -o %~d0%~p0%%~nf.mkv

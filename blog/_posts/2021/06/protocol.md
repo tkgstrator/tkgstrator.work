@@ -81,8 +81,6 @@ func multiple<T: Numeric>(_ a: T, _ b: T) -> T {
 
 整数同士での計算は整数で返したいのでこの場合は`Numeric`の方が良いでしょう。
 
-<Amazon/>
-
 ## 算術プロトコル
 
 算術プロトコルにはたくさんあるのですが、まあとりあえず以下の三つがよく出てきます。
@@ -422,5 +420,3 @@ for error in errorType.errors {
 ## まとめ
 
 プロトコルにプロトコルを準拠させる時は`associatedtype`がついているか気をつけようね！！！
-
-<Amazon/>

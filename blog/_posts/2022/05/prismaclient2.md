@@ -1,7 +1,7 @@
 ---
 title: Prisma Clientの使い方を学ぶ2
 date: 2022-05-11
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Typescript
   - NodeJS
@@ -15,7 +15,7 @@ tags:
 
 今回は以下で定義されるユーザのレコードを持っている。
 
-```prisma
+```
 enum Gender {
     MALE,
     FEMALE

@@ -25,8 +25,6 @@ category: 話題
 
 いや、これはもう完全に ponponpain を支えてますね、はい。
 
-<Amazon/>
-
 ## ponponpain を支える技術
 
 [ここのサイト](https://ykhirao.github.io/qiita/ponponpain/dist/)で自分の好きな ponponpain が簡単に作成できます。

@@ -1,7 +1,7 @@
 ---
 title: New Salmon Stats進捗状況
 date: 2022-05-16
-categoriy: プログラミング
+category: プログラミング
 tags:
   - 話題
   - Typescript

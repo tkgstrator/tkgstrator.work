@@ -1,7 +1,7 @@
 ---
 title: ランキングバトルの加点の全て
 date: 2021-12-25
-categoriy: カラオケ
+category: カラオケ
 tags:
   - プログラミング
 ---

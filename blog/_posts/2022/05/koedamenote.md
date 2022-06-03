@@ -1,7 +1,7 @@
 ---
 title: 完成が間近になると途端にやる気がなくなる現象
 date: 2022-05-06
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

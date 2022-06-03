@@ -16,8 +16,6 @@ SwiftUI で不足している機能やコンポーネントを補完するため
 
 明らかに内容が足りていないです。
 
-<Amazon/>
-
 ## コンポーネント
 
 いろいろ便利なコンポーネントがあるのですが、個人的には SearchBar と PaginationView が便利だと思います。
@@ -288,5 +286,3 @@ UserInterfaceOrientation.current
 なので SwiftUIX を使ったほうがいいですね。
 
 記事は以上。
-
-<Amazon/>

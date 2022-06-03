@@ -1,7 +1,7 @@
 ---
 title: SwiftUIでURLから画像を読み込む最適な方法を考える
 date: 2021-12-06
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

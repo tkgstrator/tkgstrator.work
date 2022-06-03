@@ -2,7 +2,7 @@
 title: 相横歩取りギガショック定跡
 date: 2021-11-01
 description: コンピュータを使って自作定跡を作成する方法について解説します
-categoriy: 将棋
+category: 将棋
 tags:
   - プログラミング
 ---

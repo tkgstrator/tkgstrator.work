@@ -1,7 +1,7 @@
 ---
 title: SwiftにおけるCollection型を理解する
 date: 2021-12-15
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
 ---

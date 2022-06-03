@@ -1,7 +1,7 @@
 ---
 title: Mac Studio届くの遅い
 date: 2022-04-15
-categoriy: 話題
+category: 話題
 tags:
   - Mac
 ---

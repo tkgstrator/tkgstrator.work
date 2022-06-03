@@ -1,7 +1,7 @@
 ---
 title: Twitter OAuth2.0 with PKCE
 date: 2022-04-22
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - Twitter
@@ -45,7 +45,7 @@ tags:
 
 リフレッシュトークンがあれば以下のリクエストを送ればアクセストークンを更新できるようです。
 
-```zsh
+```
 POST 'https://api.twitter.com/2/oauth2/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'refresh_token=bWRWa3gzdnk3WHRGU1o0bmRRcTJ5VUxWX1lZTDdJSUtmaWcxbTVxdEFXcW5tOjE2MjIxNDc3NDM5MTQ6MToxOnJ0OjE' \

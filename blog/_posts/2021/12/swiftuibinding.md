@@ -1,7 +1,7 @@
 ---
 title: SwiftUIのBindingの理解を深める
 date: 2021-12-08
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
 ---

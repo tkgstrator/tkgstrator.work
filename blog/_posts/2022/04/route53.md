@@ -1,7 +1,7 @@
 ---
 title: Route53+Docker+CertbotでSSL対応したい
 date: 2022-04-04
-categoriy: プログラミング
+category: プログラミング
 tags:
   - AWS
 ---

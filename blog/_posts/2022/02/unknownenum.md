@@ -1,7 +1,7 @@
 ---
 title: 未知の値に対応したEnumを考えるとややこしい問題
 date: 2022-02-22
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

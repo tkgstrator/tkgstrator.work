@@ -1,7 +1,7 @@
 ---
 title: サーモンランは終演を迎えるか
 date: 2022-01-12
-categoriy: Splatoon2
+category: Splatoon2
 tags:
   - サーモンラン
 ---

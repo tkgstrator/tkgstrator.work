@@ -72,7 +72,7 @@ WinPcap は Windows10 向けのものも公開されていますが、そちら�
 
 黒い画面が立ち上がり、以下のような表示がされるはずです。
 
-```dos
+```
 Interface not specified, opening all interfaces
 [DEBUG]: open \Device\NPF_{EECC75CA-BB9D-4C56-A7DE-4D99AC3EE074} ok
 pcap loop start
@@ -113,7 +113,7 @@ LanPlay に接続できなくなってしまいます。
 |                 |     優先 DNS     |    8.8.8.8    |                            全員共通                            |
 |                 |     代替 DNS     |    8.8.4.4    |                            全員共通                            |
 
-```dos
+```
 Interface not specified, opening all interfaces
 [DEBUG]: open \Device\NPF_{EECC75CA-BB9D-4C56-A7DE-4D99AC3EE074} ok
 pcap loop start

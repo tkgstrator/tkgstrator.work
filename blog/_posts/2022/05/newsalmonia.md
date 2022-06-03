@@ -1,7 +1,7 @@
 ---
 title: Salmonia 2.1.0リリースした
 date: 2022-05-18
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Python
 ---
@@ -34,7 +34,7 @@ tags:
 
 まずはクローンしてきて、設定ファイルをコピー。
 
-```zsh
+```
 git clone https://github.com/tkgstrator/Salmonia
 cd Salmonia
 cp .env.sample .env
@@ -42,7 +42,7 @@ cp .env.sample .env
 
 .env ファイルを適当なエディタで開いて`LAUNCH_MODE`を 1 に切り替え。
 
-```zsh
+```
 # 0: Production
 # 1: Development
 # 2: Sandbox
@@ -53,14 +53,14 @@ LAUNCH_MODE = 1
 
 次に必要なパッケージをインストール。でもあれだ、多分`python_dotenv`だけ忘れてるわこれ...
 
-```zsh
+```
 python3 -m pip install -r requirements.txt
 python3 -m pip install python_dotenv
 ```
 
 二行目に関してはひょっとしたら要らないかもだけど、動かなかったら入れてください。
 
-```zsh
+```
 python3 main.py
 ```
 

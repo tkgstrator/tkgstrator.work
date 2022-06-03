@@ -2,7 +2,7 @@
 title: DevkitProをmacOSで動かそう
 date: 2021-11-02
 description: DevkitProは通常Ubuntuなどでビルドするのですが、macOSでビルドできるかチャレンジしてみました
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Nintendo Switch
 ---
@@ -25,7 +25,7 @@ Ubuntu または WSL2 を用いた Ubuntu 仮想環境での導入方法につ�
 
 [このページ](https://github.com/devkitPro/pacman/releases/tag/v1.0.2)で解説しているとおりに進める。
 
-```sh
+```
 wget https://github.com/devkitPro/pacman/releases/download/v1.0.2/devkitpro-pacman-installer.pkg
 sudo installer -pkg devkitpro-pacman-installer.pkg -target /
 ```
@@ -36,7 +36,7 @@ sudo installer -pkg devkitpro-pacman-installer.pkg -target /
 
 今回は Nintendo Switch 向けのアプリを開発したいので以下のコマンドを入力します。
 
-```sh
+```
 sudo dkp-pacman -Sy
 sudo dkp-pacman -Syu
 sudo dkp-pacman -S switch-dev
@@ -44,7 +44,7 @@ sudo dkp-pacman -S switch-dev
 
 パスワードを入力すると以下のような画面が出るはずなので、何も考えずにエンターキーを押します。
 
-```sh
+```
 :: There are 12 members in group switch-dev:
 :: Repository dkp-libs
    1) deko3d  2) devkita64-cmake  3) libnx  4) switch-cmake  5) switch-examples  6) switch-pkg-config
@@ -58,7 +58,7 @@ Enter a selection (default=all):
 
 自分の環境では`.zshrc`を使っていたのですが、ここでは各自あわせてファイルを適時変更してください。
 
-```sh
+```
 # .zshrc
 export DEVKITPRO=/opt/devkitpro
 export DEVKITARM=/opt/devkitpro/devkitARM
@@ -77,7 +77,7 @@ export DEVKITPPC=/opt/devkitpro/devkitPPC
 
 :::
 
-```sh
+```
 cd ~
 git clone https://github.com/switchbrew/switch-examples
 cd switch-examples/templates/application
@@ -85,7 +85,7 @@ mkdir -p exefs_src/a
 make
 ```
 
-```sh
+```
 $ make
 main.c
 linking application.elf
@@ -95,7 +95,7 @@ built ... application.nro
 
 ビルド自体は 10 秒ほどで終わり、ファイルができていることが確認できる。
 
-```sh
+```
 $ ls
 Makefile            application.nro		source
 application.elf     build

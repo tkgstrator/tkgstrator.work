@@ -1,7 +1,7 @@
 ---
 title: Prismaの使い方を学ぶ
 date: 2022-05-09
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Typescript
   - NodeJS

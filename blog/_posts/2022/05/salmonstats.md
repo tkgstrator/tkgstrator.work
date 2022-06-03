@@ -1,7 +1,7 @@
 ---
 title: Salmon Statsよ、永遠に
 date: 2022-05-04
-categoriy: プログラミング
+category: プログラミング
 tags:
   - 話題
   - Typescript

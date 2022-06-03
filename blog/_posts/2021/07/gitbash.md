@@ -19,7 +19,7 @@ Sourcetree などの GUI ツールを使っていればそういうことは発�
 
 `git-prompt`という便利なツールがあるのでそれを導入する。以下のコマンドを一括でコピペしてターミナルに貼り付けて実行すれば良い。
 
-```sh
+```
 mkdir ~/.zsh
 cd ~/.zsh
 
@@ -30,7 +30,7 @@ curl -o _git https://raw.githubusercontent.com/git/git/master/contrib/completion
 
 ### .zshrc の編集
 
-```sh
+```
 # git-promptの読み込み
 source ~/.zsh/git-prompt.sh
 
@@ -56,9 +56,7 @@ setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f: %F{cyan}%~%f %F{red}$(__git_ps1 "(%
 
 ターミナルの起動時にパーミッションエラーで怒られる可能性があるので、以下のコマンドでディレクトリにパーミッションを与えておくと良い。
 
-```sh
+```
 chmod 755 /usr/local/share/zsh/site-functions
 chmod 755 /usr/local/share/zsh
 ```
-
-<Amazon/>

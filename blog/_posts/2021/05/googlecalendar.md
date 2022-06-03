@@ -21,8 +21,6 @@ tags:
 
 :::
 
-<Amazon/>
-
 ## 追加の仕方
 
 まずは[Google Calendar](https://calendar.google.com/calendar)をひらきます。
@@ -80,5 +78,3 @@ URL の入力画面になるのでカレンダーを追加します。
 `https://calendar.google.com/calendar/ical/3krv96lvq6h23v2gu88e2cv9p4%40group.calendar.google.com/public/basic.ics`
 
 記事は以上。
-
-<Amazon/>

@@ -1,7 +1,7 @@
 ---
 title: 型落ちPC販売中
 date: 2022-04-28
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

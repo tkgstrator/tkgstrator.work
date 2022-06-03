@@ -1,7 +1,7 @@
 ---
 title: Typescript+React+Viteから逃げるな
 date: 2022-01-31
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Vite
   - Typescript
@@ -24,7 +24,7 @@ tags:
 
 今回は`Typescript`で実装したかったので`react-ts`を選択しました。
 
-```sh
+```
 $ yarn create vite
 yarn create v1.22.17
 [1/4] 🔍  Resolving packages...
@@ -45,7 +45,7 @@ success Installed "create-vite@2.7.2" with binaries:
 
 ### プロジェクトの実行
 
-```sh
+```
 vite v2.7.13 dev server running at:
 
 > Local: http://localhost:3000/

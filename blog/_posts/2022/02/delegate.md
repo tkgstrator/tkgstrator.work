@@ -1,7 +1,7 @@
 ---
 title: Delegateパターンを理解する
 date: 2022-02-07
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

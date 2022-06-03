@@ -14,8 +14,6 @@ tags:
 - [GitHub Actions が便利すぎた](https://tkgstrator.work/posts/2021/05/06/githubactions.html)
 - [GitHub Actions で Netlify のビルド時間を浮かせよう](https://tkgstrator.work/posts/2021/05/06/netlifybuild.html)
 
-<Amazon/>
-
 ## [北米版 BD 販売予定リスト](https://rightstuf-release.netlify.app/)
 
 せっかくなので成果物は先に載せておきます。
@@ -56,7 +54,7 @@ on:
 
 で、この定期実行のコマンドが若干ややこしいです。[公式ドキュメント](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events)に設定例などがあるのですが、案の定英語なので日本語で軽く解説します。
 
-```sh
+```
 ┌───────────── minute (0 - 59)
 │ ┌───────────── hour (0 - 23)
 │ │ ┌───────────── day of the month (1 - 31)
@@ -85,7 +83,7 @@ on:
 
 これが一番使い所が多い気がします。
 
-```sh
+```
 0 0 * * *   # 毎日00:00(UTC)に実行
 ```
 
@@ -99,7 +97,7 @@ on:
 
 #### 一時間ごとに実行
 
-```sh
+```
 0 * * * *   # 毎時0分に実行
 
 30 * * * *  # 毎時30分に実行
@@ -109,7 +107,7 @@ on:
 
 #### N 分または N 時間ごとに実行
 
-```sh
+```
 */10 * * * *  # 10分置きに実行 -> 00, 10, 20, ... , 55
 
 * */1 * * *   # 1時間置きに実行
@@ -117,7 +115,7 @@ on:
 
 この書き方をすると常に N 時 0 分, 10 分, 20 分, ... 50 分のタイミングで実行されます。5 分, 15 分のように微妙なタイミングで実行したい場合は、
 
-```sh
+```
 05-59/10 * * * *  # 10分置きに実行 -> 05, 10, 15, 20, ... ,55
 ```
 
@@ -180,5 +178,3 @@ jobs:
 [Netlify へのデプロイをビルド時間 0 で行うための GitHub Actions](https://qiita.com/nwtgck/items/e9a355c2ccb03d8e8eb0)の内容が大変参考になるので、こちらを読んでください。
 
 記事は以上。
-
-<Amazon/>

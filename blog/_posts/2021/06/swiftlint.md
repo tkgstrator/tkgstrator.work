@@ -51,7 +51,7 @@ Xcode を開いてプロジェクトを選択したら`Build Phases`を選び、
 
 このとき、SwiftLint のインストール方法によって書くコマンドが変わってくるので注意しよう。
 
-```sh
+```
 # Mint以外
 # Type a script or drag a script file from your workspace to insert its path.
 if which swiftlint >/dev/null; then
@@ -62,7 +62,7 @@ else
 fi
 ```
 
-```sh
+```
 # Mint
 # Type a script or drag a script file from your workspace to insert its path.
 if which mint >/dev/null; then

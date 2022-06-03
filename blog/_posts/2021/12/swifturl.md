@@ -1,7 +1,7 @@
 ---
 title: よく使うURLのExtensionまとめ
 date: 2021-12-06
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
 ---

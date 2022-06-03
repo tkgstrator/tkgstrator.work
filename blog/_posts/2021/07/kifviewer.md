@@ -51,7 +51,7 @@ markdown-it-regexp は正規表現で Markdown から任意の文字列を抽出
 
 これを使って自分でコマンドを定義し、それだけにマッチするような正規表現を考えれば良いことになります。
 
-```sh
+```
 @[kif](KIF URL)
 
 # 例
@@ -137,7 +137,7 @@ const EMBED_REGEX = /@\[([kif].+)]\([\s]*(.*?)[\s]*[)]/im;
 module.exports = {
   extendMarkdown: (md) => {
     md.use(
-      Plugin(EMBED_REGEX, function(match, utils) {
+      Plugin(EMBED_REGEX, function (match, utils) {
         return "Hello, world!";
       })
     );
@@ -172,5 +172,3 @@ module.exports = {
 ## 完成したもの
 
 ###
-
-<Amazon/>

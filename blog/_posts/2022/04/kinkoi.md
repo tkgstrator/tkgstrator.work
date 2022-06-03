@@ -1,7 +1,7 @@
 ---
 title: 金色ラブリッチェをプレイしてみる
 date: 2022-04-17
-categoriy: 話題
+category: 話題
 tags:
   - Switch
 ---

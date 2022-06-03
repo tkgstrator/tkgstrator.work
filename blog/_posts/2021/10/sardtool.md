@@ -54,7 +54,7 @@ SARC Tool とあるが`SZS`, `SARC`, `PACK`の拡張子に対応している。
 
 そこで、以下のコマンドを実行するバッチファイルを作成します。
 
-```bat
+```
 :: Compress to szs for Nintendo Switch
 %~dp0sarc_tool.exe -little -compress 9 %~f1
 ```

@@ -2,7 +2,7 @@
 title: Request Interceptorで有効期限付きAPIにリクエストを送る
 date: 2021-11-19
 description: Alamofireにこんな機能あったのかということで試してみました
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - Alamofire

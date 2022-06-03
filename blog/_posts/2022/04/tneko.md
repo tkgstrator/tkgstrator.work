@@ -1,7 +1,7 @@
 ---
 title: NestJSでクロネコヤマトの追跡APIを作成する
 date: 2022-04-04
-categoriy: プログラミング
+category: プログラミング
 tags:
   - NestJS
   - Typescript

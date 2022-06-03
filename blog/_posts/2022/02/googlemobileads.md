@@ -1,7 +1,7 @@
 ---
 title: GoogleMobileAdsをiOSアプリに組み込む
 date: 2022-02-01
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

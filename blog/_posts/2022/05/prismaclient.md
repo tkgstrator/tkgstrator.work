@@ -1,7 +1,7 @@
 ---
 title: Prisma Clientの使い方を学ぶ
 date: 2022-05-09
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Typescript
   - NodeJS
@@ -100,7 +100,7 @@ export class AppModule {}
 
 さて、ユーザを定義したのでユーザを操作できるエンドポイントを作成します。
 
-```zsh
+```
 nest g module users
 nest g service users
 nest g controller users

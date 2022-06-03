@@ -1,7 +1,7 @@
 ---
 title: AlamofireのOAuthが便利そうだった
 date: 2021-12-21
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - Alamofire

@@ -1,7 +1,7 @@
 ---
 title: M1 Pro+Windows11
 date: 2022-04-08
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Windows
   - macOS

@@ -1,7 +1,7 @@
 ---
 title: 迂闊にSwiftUIでForEachをまわしてはいけない
 date: 2021-12-16
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

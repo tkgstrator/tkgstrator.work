@@ -1,7 +1,7 @@
 ---
 title: Combineを理解しよう
 date: 2022-02-28
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

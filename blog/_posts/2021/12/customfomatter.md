@@ -1,7 +1,7 @@
 ---
 title: 自作Formatterでテキストに社会性のフィルターを実装する
 date: 2021-12-13
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
 ---

@@ -1,7 +1,7 @@
 ---
 title: 静電容量キーボードが欲しければAKEEYOを買うべきな理由
 date: 2022-04-24
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

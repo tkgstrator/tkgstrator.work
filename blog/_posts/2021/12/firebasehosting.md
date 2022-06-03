@@ -1,7 +1,7 @@
 ---
 title: Netlifyに代えてFirebase hostingを利用してみる
 date: 2021-12-01
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Firebase
   - GitHub

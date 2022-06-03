@@ -1,7 +1,7 @@
 ---
 title: SwiftUIのGridの使い方
 date: 2021-12-23
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - SwiftUI

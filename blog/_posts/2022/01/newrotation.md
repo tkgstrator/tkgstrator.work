@@ -1,7 +1,7 @@
 ---
 title: サーモンランのシフトアップデート
 date: 2022-01-21
-categoriy: Splatoon2
+category: Splatoon2
 tags:
   - サーモンラン
 ---

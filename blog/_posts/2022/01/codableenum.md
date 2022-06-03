@@ -1,7 +1,7 @@
 ---
 title: EnumをRawValue以外でCodable準拠したい
 date: 2022-01-01
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
 ---

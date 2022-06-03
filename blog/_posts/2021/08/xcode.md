@@ -16,7 +16,7 @@ tags:
 
 AppStoreConnect にアップロードするときだけビルド ID を更新してほしいので、`Edit Scheme`から`Archive`の`Pre-actions`を更新する。
 
-```sh
+```
 cd ${PROJECT_DIR}
 xcrun agvtool next-version -all
 ```
@@ -25,7 +25,7 @@ xcrun agvtool next-version -all
 
 TARGET の`Build Phases`から+を押して`New Run Script Phase`を選択。
 
-```sh
+```
 buildNumber=$(git rev-list HEAD | wc -l | tr -d ' ')
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "${PROJECT_DIR}/${INFOPLIST_FILE}"
 ```

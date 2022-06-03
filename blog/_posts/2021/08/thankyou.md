@@ -23,8 +23,6 @@ SwiftUI で Picker 機能（複数の中から一つを選択させる）を実�
 
 [サポートページ](https://tkgstrator.work/support/)から PayPal や PayPay やほしいものリストでえいむーさんを応援することができるのですが、今月いろいろご支援いただいているのでいろいろご紹介。
 
-<Amazon/>
-
 ### [@mado_a さん](https://twitter.com/mado_a)
 
 [Baba Is You](https://store.steampowered.com/app/736260/Baba_Is_You/)というゲームをプレゼントしていただきました。
@@ -45,8 +43,6 @@ SwiftUI で Picker 機能（複数の中から一つを選択させる）を実�
 
 [コカコーラ](https://www.amazon.co.jp/dp/B004Y9IXZW)を送っていただきました！
 
-<Amazon/>
-
 ## 今後の方針
 
 今は SwiftUI で使えるライブラリを強化しているところで、[SwiftyUI](https://github.com/tkgstrator/SwiftyUI)という名前で作成しているところです。
@@ -56,5 +52,3 @@ SwiftUI で Picker 機能（複数の中から一つを選択させる）を実�
 かゆいところに手が届く、そんなライブラリにしたいところですね。
 
 記事は以上。
-
-<Amazon/>

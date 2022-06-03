@@ -1,7 +1,7 @@
 ---
 title: 近況報告とか
 date: 2022-04-09
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

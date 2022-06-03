@@ -314,7 +314,7 @@ final class RealmManager {
 
 :::
 
-```sh
+```
 libc++abi.dylib: terminating with uncaught exception of type NSException
 *** Terminating app due to uncaught exception 'RLMException', reason: 'Index 8 is out of bounds (must be less than 7).'
 terminating with uncaught exception of type NSException
@@ -453,5 +453,3 @@ var body: some View {
 
 > なんとアップデートでできるようになっていました。
 > [RealmCocoa が SwiftUI に正式対応してるっぽい](https://tkgstrator.work/posts/2021/08/05/realmcocoa.html)
-
-<Amazon/>

@@ -2,7 +2,7 @@
 title: Salmonia3のアップデート開発状況
 date: 2021-11-15
 description: 新バージョンに向けてどんなことをしているのかを簡単に解説します
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - SwiftUI

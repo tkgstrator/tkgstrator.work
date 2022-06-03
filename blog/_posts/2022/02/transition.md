@@ -1,7 +1,7 @@
 ---
 title: SwiftUIのTransitionでProgressView
 date: 2022-01-13
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - SwiftUI

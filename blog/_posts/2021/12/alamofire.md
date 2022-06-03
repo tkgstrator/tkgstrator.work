@@ -1,7 +1,7 @@
 ---
 title: AlamofireのAdvancedUsageについて
 date: 2021-12-20
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - Alamofire

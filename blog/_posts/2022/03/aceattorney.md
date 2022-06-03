@@ -1,7 +1,7 @@
 ---
 title: 大逆転裁判の第二話がひどすぎる件
 date: 2022-03-21
-categoriy: 話題
+category: 話題
 tags:
   - 逆転裁判
 ---

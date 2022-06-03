@@ -1,7 +1,7 @@
 ---
 title: 構造体をEquatableに準拠させる
 date: 2022-02-07
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - SwiftUI

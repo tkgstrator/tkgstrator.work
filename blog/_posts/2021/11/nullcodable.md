@@ -2,7 +2,7 @@
 title: Codableでnullが消えてしまう問題に対応する
 date: 2021-11-21
 description: Codable準拠の構造体をJSONに変換するとき、nilが入っていると正しく変換できない問題に対応します
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
 ---

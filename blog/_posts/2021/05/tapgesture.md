@@ -151,5 +151,3 @@ struct TouchDemoApp: App {
 ```
 
 なんとこれだけで終わりである、神かな？
-
-<Amazon/>

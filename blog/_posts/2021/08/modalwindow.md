@@ -18,8 +18,6 @@ ModalWindow とは通称モーダルと言われ、メインのウィンドウ�
 
 SwiftUI のデフォルトでは`sheet`と`fullScreenCover`が使えます。このうち、`fullScreenCover`は iOS14 以降でないと使えないのでそれだけ気をつけてください。
 
-<Amazon/>
-
 ### Sheet
 
 ```swift
@@ -86,8 +84,6 @@ ModalWindow のアニメーションには次の 4 つがあります。
 ### PartialCurl
 
 元のビューが FullScreen で表示されていないとクラッシュします。
-
-<Amazon/>
 
 ## Modal 表示スタイル
 
@@ -185,5 +181,3 @@ struct ContentView: View {
 ユーザビリティ的には違和感があると思うので、誤タッチ等で消されたくない場合を除いて`false`(デフォルト値)で良いと思います。
 
 記事は以上。
-
-<Amazon/>

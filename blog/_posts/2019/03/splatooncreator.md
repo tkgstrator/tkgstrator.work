@@ -11,8 +11,6 @@ category: スプラトゥーン2
 
 詳しくはイカすアートブック 2 に載っているので是非読んでいただきたい。
 
-<Amazon/>
-
 ### 校章
 
 ![](https://pbs.twimg.com/media/E4yJIDkXIAEh74l?format=png)

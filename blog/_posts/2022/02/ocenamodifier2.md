@@ -1,7 +1,7 @@
 ---
 title: Ocean Modifierを改良しよう
 date: 2022-02-21
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Splatoon2
   - Hack
@@ -39,7 +39,7 @@ typedef struct {
 
 スプラトゥーンの`main_nso_build_id`を調べるのがちょっとめんどくさいですが、やってやれないことはありません。
 
-```sh
+```
 5.5.0 1729DD426870976B4EE94A34BBCFF766
 5.4.0 32A8F031861B76DF3D1080E6A52FE0B0
 5.3.1 CF91518983FCB18D11B0FF1DAC22300F

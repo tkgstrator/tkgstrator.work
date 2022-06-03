@@ -1,7 +1,7 @@
 ---
 title: タッチしたときに振動するアレを実装する
 date: 2022-02-01
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

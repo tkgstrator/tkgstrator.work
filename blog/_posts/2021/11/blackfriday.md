@@ -2,7 +2,7 @@
 title: ブラックフライデーに買ったもの
 date: 2021-11-29
 description: ブラックフライデーはあんまり関係ないのですが、いろいろ買ったのでそれを紹介します
-categoriy: 話題
+category: 話題
 tags:
   - Nintendo Switch
 ---

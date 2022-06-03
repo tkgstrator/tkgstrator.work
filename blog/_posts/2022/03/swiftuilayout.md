@@ -1,7 +1,7 @@
 ---
 title: SwiftUIのレイアウトで使えるテクニック
 date: 2022-03-14
-categoriy: プログラミング
+category: プログラミング
 tags:
   - SwiftUI
   - Swift

@@ -38,7 +38,7 @@ asm.js とは Javasciprt のコードの一部を事前にコンパイルする�
 
 今回は適当に`Hello, world!`を出力するプログラムを書いてみることにする。
 
-```sh
+```
 mkdir helloworld
 cd helloworld
 carton init --template tokamak

@@ -1,7 +1,7 @@
 ---
 title: サポートページ
 date: 2021-12-24
-categoriy: 雑記
+category: 雑記
 ---
 
 ## ほしいものリスト

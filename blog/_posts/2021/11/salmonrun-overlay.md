@@ -2,7 +2,7 @@
 title: OBSでサーモンランを配信する補助ツールを作りました
 date: 2021-11-03
 description: OBSで現在の評価や勝敗を表示できるツールの導入方法について解説
-categoriy: サーモンラン
+category: サーモンラン
 tags:
   - Nintendo Switch
 ---

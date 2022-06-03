@@ -37,7 +37,7 @@ Git におけるブランチとは、
 
 どんなブランチが存在するかは`git branch`でチェックすることができます。
 
-```sh
+```
 * develop
   master
   production
@@ -98,7 +98,7 @@ git merge develop
 
 `git pull`でエラーが発生するのはコンフリクトが発生した場合だと思うのですが、その場合はまず`git merge`の部分を取り消したいので、
 
-```sh
+```
 git merge --abort
 git reset --hard HEAD
 ```
@@ -113,14 +113,14 @@ git reset --hard HEAD
 
 この図でいうと G の地点で`git rebase master`のコマンドを入力すると、その時点での`master`ブランチの先頭に対して現在のブランチの最も古いブランチがくっつきます。
 
-```sh
+```
 git checkout develop    # developブランチに移動
 git rebase master       # DにCをくっつける
 ```
 
 これで`develop`ブランチは図のように一直線(fast-forward)になったので、その変更を`master`ブランチに反映させます。
 
-```sh
+```
 git checkout master
 git merge develop
 ```
@@ -139,7 +139,7 @@ git merge develop
 
 過去の変更を確認します。
 
-```sh
+```
 $ git log
 commit 8bdd9cd163fed7442330d1535f5b4afff29665b1 (HEAD -> master, origin/master, origin/HEAD)
 Author: tkgstrator <nasawake.am@gmail.com>
@@ -161,7 +161,7 @@ Date:   Fri Jul 9 13:27:30 2021 +0900
 
 この画面を閉じるのは`Esc`ではなく`q`ですので覚えておくと良いでしょう。
 
-```sh
+```
 $ git log --oneline
 8bdd9cd (HEAD -> master, origin/master, origin/HEAD) - 記事の追加
 2361ec0 Merge pull request #30 from skmtie/master
@@ -177,7 +177,7 @@ a906c40 - 記事の追加
 
 `git log`は現在の状態よりも過去のログしか見ることができません。
 
-```sh
+```
 $ git reflog
 8bdd9cd (HEAD -> master, origin/master, origin/HEAD) HEAD@{0}: commit: - 記事の追加
 2361ec0 HEAD@{1}: checkout: moving from assets to master
@@ -197,7 +197,7 @@ f1e8a5e (origin/assets, assets) HEAD@{2}: commit: - 透過PNG用のブランチ
 
 なにかやらかしてしまってそれを取り消したい場合に使います。
 
-```sh
+```
 8bdd9cd - D # 誤ったコミット
 02f84c2 - C
 a906c40 - B
@@ -215,19 +215,19 @@ a906c40 - B
 
 1 の場合がコレに該当します。コミットだけ巻き戻し、ファイルは変更しません。
 
-```sh
+```
 git reset --soft 02f84c2 # Cのコミットのハッシュ値を入力
 ```
 
 また、一つ戻すだけであればハッシュ値を使わずに以下のコマンドも利用できます。
 
-```sh
+```
 git reset --soft HEAD^
 ```
 
 `HEAD`と入力するのがめんどくさければ代わりに`@`も使えます。
 
-```sh
+```
 git reset --soft @^
 ```
 
@@ -241,7 +241,7 @@ git reset --soft @^
 
 `Soft`でも`Hard`の場合でも戻しすぎた場合には未来のコミットは見えないという制約から`git log`では戻したいコミットを確認することができません。
 
-```sh
+```
 $ git reflog # 戻したいコミットを確認
 git reset --soft # ハッシュ値を指定
 ```
@@ -258,7 +258,7 @@ Git にプッシュするときの Committer の名前やメールアドレス�
 
 `git config --global -e`で設定ファイルがひらくので、
 
-```sh
+```
 [user]
         name = tkgstrator
         email = nasawake.am@gmail.com
@@ -303,13 +303,13 @@ Git にプッシュするときの Committer の名前やメールアドレス�
 
 コミットはしてしまったが、プッシュはしていない場合には`git config -e`で設定を変更した後に以下のコマンドで変更を取り込むことができます。
 
-```sh
+```
 git commit --amend
 ```
 
 これだと Commiter しか変更できないので、Author もついでに変更する場合は以下のコマンドを入力します。
 
-```sh
+```
 git commit --amend --author="tkgstrator <nasawake.am@gmail.com>"
 git rebase --continue
 ```
@@ -318,13 +318,13 @@ git rebase --continue
 
 既にプッシュしたコミット全ての Commiter と Author を変更するコマンドは以下の通り。
 
-```sh
+```
 git filter-branch -f --env-filter "GIT_AUTHOR_NAME='tkgstrator'; GIT_AUTHOR_EMAIL='nasawake.am@gmail.com'; GIT_COMMITTER_NAME='tkgstrator'; GIT_COMMITTER_EMAIL='nasawake.am@gmail.com';" HEAD
 ```
 
 既にプッシュしたコミットを変更するので、強制上書きできるように、
 
-```sh
+```
 git push -f
 ```
 
@@ -338,7 +338,7 @@ git push -f
 
 例えば本来はレポジトリに含めてはいけないパスワードなどが誤って Git で管理されていたときの対処方法。
 
-```sh
+```
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch SECRET_FILE_PATH' HEAD
 ```
 
@@ -352,7 +352,7 @@ GitHub でレポジトリをフォークし、それを Clone した場合には
 
 フォーク元がガンガン開発を進めている場合、フォーク元の最新コミットを取得したいというケースがあります。
 
-```sh
+```
 git remote add upstream <GitHub Repository>
 ```
 
@@ -360,7 +360,7 @@ git remote add upstream <GitHub Repository>
 
 こうすれば普段の Push は自分のフォークしたレポジトリに対して行われますが、最新の内容をフォーク元から取得する場合には、
 
-```sh
+```
 git fetch upstream
 git merge upsttream/master
 ```
@@ -401,16 +401,14 @@ git rebase master
 
 今回は`developA`の内容を`developB`に反映させたいと思います。
 
-```sh
+```
 git checkout developA   # ブランチを移動
 git log                 # コミットのハッシュをチェック
 ```
 
 まず、取り込みたい内容のハッシュをチェックします。
 
-```sh
+```
 git checkout developB   # ブランチを移動
 git cherry-pick <HASH>  # ハッシュを指定して取り込み
 ```
-
-<Amazon/>

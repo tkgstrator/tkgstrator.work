@@ -1,7 +1,7 @@
 ---
 title: Flutterでアプリを作成してみる
 date: 2022-04-17
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Swift
   - iOS
@@ -10,7 +10,7 @@ tags:
 
 ## プロジェクトの作成
 
-```sh
+```
 flutter create project_name
 ```
 

@@ -3,8 +3,8 @@ module.exports = {
   theme: "blog-vuetify",
   themeConfig: {
     components: {
-      afterPage: "Amazon",
-      beforePageSection: "Amazon",
+      // afterPage: "Amazon",
+      // beforePageSection: "Amazon",
     },
   },
   head: [

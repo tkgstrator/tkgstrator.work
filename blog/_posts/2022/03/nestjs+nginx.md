@@ -1,7 +1,7 @@
 ---
 title: NestJS+Nginxで爆速APIを立てるチュートリアル
 date: 2022-03-23
-categoriy: プログラミング
+category: プログラミング
 tags:
   - NestJS
   - Typescript

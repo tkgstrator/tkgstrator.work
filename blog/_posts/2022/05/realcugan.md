@@ -1,7 +1,7 @@
 ---
 title: 最強のアプコンアルゴリズム、Real-CUGANを使ってみた
 date: 2022-05-06
-categoriy: 話題
+category: 話題
 tags:
   - 話題
 ---

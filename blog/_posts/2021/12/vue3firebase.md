@@ -1,7 +1,7 @@
 ---
 title: Vue3 + Firebaseチュートリアル
 date: 2021-12-02
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Firebase
   - Vue
@@ -17,7 +17,7 @@ Vue の最新バージョンは 3 なのだが、ネットを調べると情報�
 
 > [Vue CLI](https://cli.vuejs.org/)
 
-```sh
+```
 yarn global add @vue/cli
 # OR
 npm install -g @vue/cli
@@ -25,7 +25,7 @@ npm install -g @vue/cli
 
 インストールが完了したらプロジェクトを作成する。
 
-```sh
+```
 vue create PROJECT_NAME
 ```
 
@@ -37,7 +37,7 @@ vue create PROJECT_NAME
 
 プロジェクトが作成できたらプロジェクト内で`@vue/cli`のバージョンをアップデートする。
 
-```sh
+```
 cd PROJECT_NAME
 vue upgrade --next
 ```
@@ -46,7 +46,7 @@ vue upgrade --next
 
 なお、以後は`yarn`での開発環境についてのみのコマンドを記述するので注意。
 
-```sh
+```
 yarn serve # Devlopment
 ```
 
@@ -60,7 +60,7 @@ Firebase を楽に利用するためのラッパーである Vuefire を使お�
 
 ### [Firebase](https://firebase.google.com/docs/web/setup)
 
-```sh
+```
 yarn add firebase
 # OR
 npm install firebase

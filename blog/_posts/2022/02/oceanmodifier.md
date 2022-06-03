@@ -1,7 +1,7 @@
 ---
 title: シード変更を圧倒的に便利にする、Ocean Modifierの開発に関わった件
 date: 2022-02-19
-categoriy: プログラミング
+category: プログラミング
 tags:
   - Splatoon2
   - Hack

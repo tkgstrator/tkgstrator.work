@@ -167,5 +167,3 @@ print(stringValue) // Cannot convert value of type 'Int' to type 'String' in coe
 ### as!
 
 キャストして失敗したらエラーが発生し、そのままクラッシュします。
-
-<Amazon/>

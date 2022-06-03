@@ -1,7 +1,7 @@
 ---
 title: Kindle OasisでEPUBを読む方法
 date: 2022-04-10
-categoriy: Amazon
+category: Amazon
 tags:
   - Kindle
 ---
